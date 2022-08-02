@@ -1,0 +1,8 @@
+<resources>
+    <string name="app_name">Paging V3 Demo</string>
+    <!-- TODO: Remove or change this placeholder text -->
+    <string name="hello_blank_fragment">Hello blank fragment</string>
+    <string name="name">name</string>
+    <string name="description">description</string>
+    <string name="character_image_description">character image description</string>
+</resources>
