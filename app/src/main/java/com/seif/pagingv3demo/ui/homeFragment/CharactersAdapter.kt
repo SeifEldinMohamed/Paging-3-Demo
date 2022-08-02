@@ -17,8 +17,7 @@ class CharactersAdapter :
         fun bind(item: CharacterData) {
             binding.tvName.text = item.name
             binding.tvDescription.text = item.species
-            Glide.with(binding.root.context).load(item.url)
-                .circleCrop()
+            Glide.with(binding.root.context).load(item.image)
                 .into(binding.ivCharacter)
 
         }
